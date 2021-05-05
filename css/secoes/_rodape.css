@@ -1,0 +1,40 @@
+.rodape {
+    border-top: 3px solid var(--titulo-principal-color);
+    background: var(--rodape-background-color);
+    padding: 20px 0px;
+}
+
+.rodape__container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.rodape__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    width: 20%;
+}
+
+.rodape__redes {
+    margin: 0 auto;
+}
+
+.rodape__conteudo {
+    margin: 30px 30px;
+}
+
+.rodape__power {
+    font-size: 12px;
+}
+
+.rodape__email {
+    color: var(--navegacao-lista-fonte);
+    font-size: 13px;
+}
+
+.power {
+    line-height: 0.3;
+}

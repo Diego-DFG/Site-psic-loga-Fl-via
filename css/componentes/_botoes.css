@@ -1,0 +1,26 @@
+.btn-sobre {
+    padding: 15px 10px;
+    background-color: var(--titulo-principal-color);
+    color: var(--branco);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-lead {
+    padding: 15px 10px;
+    border-radius: 30px;
+    border: none;
+    color: var(--titulo-principal-color);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.btn-lead:hover {
+    background: var(--titulo-principal-color);
+    border:  1px solid var(--branco);
+    color: var(--branco);
+}

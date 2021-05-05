@@ -1,0 +1,100 @@
+
+@import url('../componentes/_paragrafos.css');
+@import url('../componentes/_botoes.css');
+@import url('../secoes/_carousel.css');
+@import url('../componentes/_titulos.css');
+@import url('../componentes/_cards.css');
+
+
+.conteudo__principal_destaque {
+    height: 699PX;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* Conteudo Menu */
+
+.conteudo__sobre {
+    text-align: center;
+    height: 400px;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+
+.sobre__container {
+    margin: 20px;
+}
+
+.sobre__decricao {
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+/* Conteúdo atendimento */
+
+.conteudo__atendimento-container {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)100%), url('../../img/img_atendimento_02.jpg')no-repeat center/cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atendimento__cards {
+    display: flex;
+
+}
+
+/* Conteúdo consultório */
+
+.conteudo__consultorio {
+    margin-top: 20px;
+    text-align: center;
+    height: 800px;
+}
+
+/* Conteúdo Lead */
+
+.conteudo__lead {
+    background: var(--titulo-principal-color);
+    height: 220px;
+    margin: 0px auto;
+    text-align: center;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+}
+
+/* Contrúdo localização */
+
+.consultorio__video, .consultorio__img {
+    height: 500px;
+    width: 310px;
+    margin-right: 10px;
+}
+
+.consultorio__img {
+    width: 300px;
+}
+
+.consultorio__apresentacao {
+    display: flex;
+    justify-content: center;
+}
+
+.localizacao__mapa {
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+

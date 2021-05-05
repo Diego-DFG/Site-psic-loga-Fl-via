@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flávia - Psicologia infantil</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/base/main.css">
+    <link rel="stylesheet" href="./css/breakpoints/base-breakpoints.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bibliotecas/bootstrap.min.css">
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="./css/bibliotecas/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/bibliotecas/owl.theme.default.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Navegação -->
+        <header class="navegacao">
+            <nav class="navegacao__logo">
+                <div class="logo__container">
+                    <h1 class="logo logo__h1">FLÁVIA QUITETE</h1>
+                    <div class="logo__icone"></div>
+                    <h3 class="logo logo__h3">Psicologia Infantil</h3>
+                </div>
+            </nav>
+            <div class="navegacao__conteudo">
+                <div class="navegacao__conteudo-container">
+                    <ul class="conteudo__lista">
+                        <div class="conteudo__redes-sociais">
+                            <i class="facebook fab fa-facebook-f"></i>
+                            <i class="instagram fab fa-instagram"></i>
+                            <i class="linkedin fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <a class="lista__ancora ancora__active" href="">HOME</a>
+                            <a class="lista__ancora" href="">SOBRE MIM</a>
+                            <a class="lista__ancora" href="">ATENDIMENTO</a>
+                            <a class="lista__ancora" href="">LOCALIZAÇÃO</a>
+                            <a class="lista__ancora" href="">CONTATO</a>
+                        </div>
+                        <!--<a class="lista__ancora ancora__mais" href="">MAIS
+                            <i onclick="controller.importaTemplate(event)" class="ancora__setaParaBaixo fas fa-angle-down"></i>
+                        </a>-->
+                        <div id="lista__template"></div>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521970175773/&text=Olá!%20Gostaria%20de%20mais%20informações" id="back-to-top" title="Chame-nos no Whatsapp" style="display:none;"><i class="whatsapp fab fa-whatsapp" aria-hidden="true"></i></a>
+                    </ul>
+                    <div class="menu-bars-container">
+                        <i class="menu-times fas fa-times"></i>
+                        <i class="menu-bars fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="responsive-menu">
+            <ul class="responsive-menu__lista">
+                <div class="responsive-menu__redes-sociais">
+                    <i class="facebook fab fa-facebook-f"></i>
+                    <i class="instagram fab fa-instagram"></i>
+                    <i class="linkedin fab fa-linkedin"></i>
+                </div>
+                <div class="responsive-menu__ancora">
+                    <a class="ancora-link" href="">HOME</a>
+                    <a class="ancora-link" href="">SOBRE MIM</a>
+                    <a class="ancora-link" href="">ATENDIMENTO</a>
+                    <a class="ancora-link" href="">LOCALIZAÇÃO</a>
+                    <a class="ancora-link" href="">CONTATO</a>
+                </div>
+            </ul>
+        </div>
+
+        <!-- Conteúdo -->
+        
+        <main class="conteudo__principal">
+            <section class="conteudo__principal_destaque">
+                <img class="destaque__img" src="./img/flavia_10_1.jpg" alt="">
+            <section class="conteudo__sobre">
+                <div class="titulo__container">
+                    <h2 class="titulo__default">Sobre mim</h2>
+                </div>
+                <div class="sobre__descricao">
+                    <p class="descricao__paragrafo">
+                        Seja bem-vindo(a)!
+                    </p>
+                    <p class="descricao__paragrafo">
+                        
+                        Me chamo Flávia Quitete e sou formada em ....pela.... e especialista(mestra,doutora)...
+                        Sou apaixonada pela psicologia porque...
+                        Auxiliquei ... crianças a superar....
+                    </p>
+                    <p class="descricao__paragrafo">
+                        Espero vê-lo(a) em breve!
+                        
+                    </p>
+                    <p class="descricao__paragrafo">
+                        Com carinho,
+                    </p>
+                    <p class="descricao__paragrafo">
+                        Flávia
+                    </p>
+                </div>
+            </section>
+
+            <!-- Atendimento -->
+            <section class="conteudo__atendimento">
+                <div class="conteudo__atendimento-container">
+                    <h2 class="titulo__default titulo__atendimento">Terapia</h2>
+                    <div class="atendimento__cards">
+                        <div data-aos="fade-right" data-aos-delay="400" class="atendimento__card-default">
+                            <img class="atendimento__card_img" src="./img/flavia_06.jpeg" alt="">
+                            <p class="paragrafo__atendimento">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            </p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="500" class="atendimento__card-default">
+                            <img class="atendimento__card_img" src="./img/flavia_02.jpeg" alt="">
+                            <p class="paragrafo__atendimento">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            </p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="500" class="atendimento__card-default">
+                            <img class="atendimento__card_img" src="./img/flavia_08.jpeg" alt="">
+                            <p class="paragrafo__atendimento">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            </p>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="400" class="atendimento__card-default">
+                            <img class="atendimento__card_img" src="./img/flavia_04.jpeg" alt="">
+                            <p class="paragrafo__atendimento">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Consultório -->
+            <section class="conteudo__consultorio">
+                <div class="titulo__container">
+                    <h2 class="titulo__default">Consultório</h2>
+                </div>
+                <div class="sobre__descricao">
+                    <p data-aos="fade-in" data-aos-delay="400" class="descricao__paragrafo paragrafo__localizacao">
+                        Conheça as nossas instalações. Nosso consultório foi pensado para
+                        permitir o máximo de conforto a nossos pacientes e suas famílias,
+                        possuindo um ambiente aconchegante, sempre pensando no bem estar
+                        de todos.
+                    </p>
+                </div>
+                <div class="consultorio__apresentacao">
+                    <div class="consultorio__video img-thumbnail">
+                        <iframe src="./img/video_01.mp4" height="500" frameborder="0"></iframe>
+                    </div>
+                    <div class="consultorio__video img-thumbnail">
+                        <iframe src="./img/video_02.mp4" height="500" frameborder="0"></iframe>
+                    </div>
+                    <div class="consultorio__video img-thumbnail">
+                        <img class="consultorio__img" src="./img/flavia_03.jpeg" height="500"/>
+                    </div>
+                </div>
+                <!-- 
+                <div class="carousel">
+                    <div class="owl-carousel owl-theme">
+                        <div id="img_02" class="carousel__container-img img-thumbnail">
+                            
+                        </div>
+                        <div id="img_03" class="carousel__container-img img-thumbnail">
+                            
+                        </div>
+                        <div id="img_04" class="carousel__container-img img-thumbnail">
+                            <img class="carousel__img" src="img/img_04.jpeg" alt="">
+                        </div>
+                        <div id="img_05" class="carousel__container-img img-thumbnail">
+                            <img class="carousel__img" src="img/img_05.jpeg" alt="">
+                        </div>
+                        <div id="img_06" class="carousel__container-img img-thumbnail">
+                            <img class="carousel__img" src="img/img_06.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                -->
+            </section>
+
+            <!-- Conteúdo lead -->
+            <section class="conteudo__lead">
+                <div class="lead__descricao">
+                    <p class="descricao__paragrafo">
+                        Marque uma consulta ou tire suas dúvidas.
+                    </p>
+                    <button role="button" class="btn-lead">FALE COMIGO</button>
+                </div>
+            </section>
+
+            <!-- Localização -->
+
+            <section class="conteudo__localizacao">
+                <div class="titulo__container">
+                    <h2 class="titulo__default">Localização</h2>
+                </div>
+                <div class="sobre__descricao">
+                    <p class="descricao__paragrafo paragrafo__localizacao">
+                        Nosso espaço foi projetado para recebê-lo(a) com o máximo de conforto e segurança. 
+                        Está localizado no shopping Barra World que conta com estacionamento e diversos outros serviços.
+                        Lugar de fácil acesso tanto de carro, ônibus ou BRT. 
+                
+                    </p>
+                </div>
+                <div class="localizacao__mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.
+                        368782871618!2d-43.44464098555756!3d-23.010227847354034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                        1!3m3!1m2!1s0x9bdcdefb71eb71%3A0xfd01bd492b3b7092!2sAv.
+                        %20Alfredo%20Balthazar%20da%20Silveira%2C%20580%20-%20sala%20101-
+                        D%20-%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-
+                        %20RJ%2C%2022790-710!5e0!3m2!1spt-BR!2sbr!4v1620007199129!5m2!1spt-BR!2sbr" 
+                        width="1350" height="550" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="rodape">
+            <div class="rodape__logo">
+                <h1 class="logo logo__h1 logo__rodape">Dra. FLÁVIA</h1>
+                <div class="logo__icone"></div>
+                <h3 class="logo">Psicologia Infantil</h3>
+                <div class="rodape__redes">
+                    <i class="facebook rodape_redes fab fa-facebook-f"></i>
+                    <i class="instagram rodape_redes fab fa-instagram"></i>
+                    <i class="linkedin rodape_redes fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div>
+                <div class="rodape__container"> 
+                    <div class="rodape__conteudo power">
+                        <p class="rodape__power">Powered by: DFG Digital Solutions 2021</p>
+                        <a class="rodape__email" href="http://dfgsolutions.com.br/">www.dfgsolutions.com.br</a>
+                    </div>
+                    <div class="rodape__conteudo">
+                        <p>Flávia - psicóloga (CRP: CRP 05/30966)</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!-- Bibliotecas js -->
+    <script src="./js/fontawesome-all.js"></script>
+    <script src="./js/Jquery3.4.1.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+   
+    
+</body>
+</html>

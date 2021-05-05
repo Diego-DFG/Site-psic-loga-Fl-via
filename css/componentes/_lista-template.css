@@ -1,0 +1,27 @@
+
+
+.lista__template {
+    width: 230px;
+    height: 230px;
+    box-shadow: 1px 5px 10px 2px #999;
+    background-color: var(--redes-sociais-color);
+    border-radius: 5px;
+    float: right;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+    right: 80px;
+}
+
+.template__lista {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    line-height: 3;
+    margin-top: 20px;
+}
+
+.ancora__template {
+    color: var(--navegacao-lista-color);
+    margin-left: 10px;
+}

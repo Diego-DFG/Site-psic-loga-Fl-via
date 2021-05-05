@@ -1,0 +1,75 @@
+@import url('../secoes/_navegacao.css');
+@import url('../secoes/_conteudo.css');
+@import url('../secoes/_rodape.css');
+@import url('../componentes/_breakpoints.css');
+
+/* Estilos gerais */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variáveis */
+:root {
+    /*Fontes */
+    --titulo-principal: 'Cinzel', serif;
+    --navegacao-lista-fonte: 'Oxygen', sans-serif;
+    --conteudo--sobre-fonte: 'Quicksand', sans-serif;
+
+    --titulo-principal-size: 20px;
+    --conteudo-titulo-size: 25px;
+    --redes-sociais-size: 25px;
+
+    /*Cores*/
+    --titulo-principal-color: #5f939a;
+    --navegacao-lista-color-hover: #999;
+    --redes-sociais-color: #fff;
+    --rodape-background-color: rgba(0,0,0,0.09);
+    --cinza: #687980;
+
+    --branco: #eee;
+
+    /* Configurações gerais */
+    --conteudo-margin-top: 15px;
+
+    /* Borda */
+    --redes-sociais-borderRadius: 10px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100vh;
+     overflow: hidden;
+    height: 4143px;
+    display: grid;
+    grid-template-areas: 'header' 'main' 'footer';
+    grid-template-rows: 5% 90% 5%;
+}
+
+#back-to-top 
+{ position: fixed; bottom: 80px; right: 70px; z-index: 9999;
+    width: 72px; height: 72px; text-align: center; 
+    line-height: 40px; background: var(--titulo-principal-color); color: #ffffff;
+    cursor: pointer; border: 0; border-radius: 50%;
+    box-shadow: 2px 2px 5px #999;
+    text-decoration: none; transition: opacity 0.2s ease-out;
+	font-size: 30px; 
+}
+
+.navegacao {
+    grid-area: header;
+}
+
+.conteudo__principal {
+    grid-area: main;
+}
+
+.rodape {
+    grid-area: footer;
+}
+
