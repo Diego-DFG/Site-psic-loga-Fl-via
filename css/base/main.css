@@ -44,14 +44,14 @@ body {
 
 .wrapper {
     min-height: 100vh;
-     overflow: hidden;
-    height: 4143px;
-    display: grid;
+    overflow: hidden;
+   /* display: grid;
     grid-template-areas: 'header' 'main' 'footer';
-    grid-template-rows: 5% 90% 5%;
+    grid-template-rows: 18% 77% 5%;*/
 }
 
-#back-to-top 
+
+.btn__whatsapp
 { position: fixed; bottom: 80px; right: 70px; z-index: 9999;
     width: 72px; height: 72px; text-align: center; 
     line-height: 40px; background: var(--titulo-principal-color); color: #ffffff;
@@ -61,15 +61,5 @@ body {
 	font-size: 30px; 
 }
 
-.navegacao {
-    grid-area: header;
-}
 
-.conteudo__principal {
-    grid-area: main;
-}
-
-.rodape {
-    grid-area: footer;
-}
 

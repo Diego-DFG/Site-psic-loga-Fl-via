@@ -1,5 +1,37 @@
 @media (max-width: 860px) {
+
+/* botões */
+
+.btn__whatsapp
+{ right: 20px; bottom: 20px; }
+
+.retorno_ao_topo 
+{ right: 30px; bottom: 150px; }
+
+/* Wrapper */
+
+    .wrapper {
+        height: 7250px;
+    }
+
+    .navegacao {
+        height: 160px;
+    }
+    
+    .conteudo__principal {
+        height: 94%;
+    }
+    
+    .rodape {
+        height: 4%;
+    }
+
     /* Navegacao */
+
+    .navegacao__conteudo {
+        height: 50px;
+    }
+
     .conteudo__lista {
         display: none;
     }
@@ -11,14 +43,15 @@
     .menu-bars, .menu-times {
         display: block;
         cursor: pointer;
+        font-size: 30px;
     }
 
-    .responsive-menu {
-        height: calc(100vh - 40px);
-        display: flex;
-        justify-content: center;
-        
-    }
+    .responsive-menu{display: block; top: 24%; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
+    .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .responsive-menu ul li a { text-decoration:none;  margin: 0px; color: var(--titulo-principal-color)}
+    .responsive-menu ul li a:hover { text-decoration:none;}
 
     .responsive-menu__redes-sociais {
         text-align: center;
@@ -50,7 +83,15 @@
 
     /* Conteudo sobre */
     .conteudo__sobre {
-        height: 1200px;
+        height: 10%;
+    }
+
+    .conteudo__destaque {
+        width: 100%;
+    }
+
+    .destaque__img {
+        width: 100%;
     }
 
     .titulo__default {
@@ -58,13 +99,17 @@
     }
 
     /* Conteudo atendimento */
+    .conteudo__atendimento {
+        height: 33%;
+    }
+
     .conteudo__atendimento-container {
-        height: 1500px;
+        background-position: right;
     }
 
     .atendimento__cards {
-        margin-top: 20px;
         display: flex;
+        margin-bottom: 20px;
         flex-direction: column;
     }
 
@@ -74,5 +119,57 @@
 
     /* Conteudo consultorio */
 
+    .conteudo__consultorio {
+        height: 32%;
+    }
+
+    .consultorio__apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .consultorio__video {
+        margin-top: 20px;
+    }
+
+    /* Conteudo lead */
+
+    .conteudo__lead {
+        height: 3.5%;
+    }
+
+    /* Conteúdo localização */
+
+    .conteudo__localização {
+        height: 6.5%;
+    }
+
+    /* Conteudo rodapé */
+
+    .conteudo__rodape {
+        height: 15%;
+    }
+
+    .rodape__redes {
+        display: flex;
+    }
+
+    .rodape__power {
+        display: flex;
+    }
+
+    .rodape__power-span {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .logo__rodape {
+        font-size: 15px;
+    }
+
+    .power {
+        margin-top: 30px;
+    }
 }
 
