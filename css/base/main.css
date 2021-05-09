@@ -27,7 +27,7 @@
     --navegacao-lista-color-hover: #999;
     --redes-sociais-color: #fff;
     --rodape-background-color: rgba(0,0,0,0.09);
-    --cinza: #687980;
+    --cinza: rgba(0,0,0,0.07);
 
     --branco: #eee;
 
@@ -45,21 +45,10 @@ body {
 .wrapper {
     min-height: 100vh;
     overflow: hidden;
-   /* display: grid;
-    grid-template-areas: 'header' 'main' 'footer';
-    grid-template-rows: 18% 77% 5%;*/
 }
 
 
-.btn__whatsapp
-{ position: fixed; bottom: 80px; right: 70px; z-index: 9999;
-    width: 72px; height: 72px; text-align: center; 
-    line-height: 40px; background: var(--titulo-principal-color); color: #ffffff;
-    cursor: pointer; border: 0; border-radius: 50%;
-    box-shadow: 2px 2px 5px #999;
-    text-decoration: none; transition: opacity 0.2s ease-out;
-	font-size: 30px; 
-}
+
 
 
 

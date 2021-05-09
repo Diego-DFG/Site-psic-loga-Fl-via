@@ -24,7 +24,8 @@
 				$('#back-to-top').fadeOut();
 				$('#up_page').fadeOut(); 
 				$('#up_page').css({
-					color: '#fff'});
+					color: '#fff'
+				});
 			} 
 		}); 
 

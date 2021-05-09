@@ -23,8 +23,8 @@
     margin: 20px;
 }
 
-.sobre__decricao {
-    height: 400px;
+.sobre__descricao {
+    height: 15rem;
     width: 100%;
     display: block;
 }
@@ -54,7 +54,6 @@
 .conteudo__consultorio {
     margin-top: 20px;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 /* Conteúdo Lead */
@@ -67,6 +66,10 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.lead__descricao {
+    width: 100%;
 }
 
 /* Conteúdo localização */

@@ -10,21 +10,7 @@
 
 /* Wrapper */
 
-    .wrapper {
-        height: 7250px;
-    }
-
-    .navegacao {
-        height: 160px;
-    }
     
-    .conteudo__principal {
-        height: 94%;
-    }
-    
-    .rodape {
-        height: 4%;
-    }
 
     /* Navegacao */
 
@@ -46,7 +32,7 @@
         font-size: 30px;
     }
 
-    .responsive-menu{display: block; top: 24%; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
+    .responsive-menu{display: block; top: 31%; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
     .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
     .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
     .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
@@ -83,7 +69,7 @@
 
     /* Conteudo sobre */
     .conteudo__sobre {
-        height: 10%;
+        height: 50rem;
     }
 
     .conteudo__destaque {
@@ -100,7 +86,7 @@
 
     /* Conteudo atendimento */
     .conteudo__atendimento {
-        height: 33%;
+        height: 140rem;
     }
 
     .conteudo__atendimento-container {
@@ -120,7 +106,7 @@
     /* Conteudo consultorio */
 
     .conteudo__consultorio {
-        height: 32%;
+        height: 145rem;
     }
 
     .consultorio__apresentacao {
@@ -136,40 +122,78 @@
     /* Conteudo lead */
 
     .conteudo__lead {
-        height: 3.5%;
+        height: 15rem;
     }
 
     /* Conteúdo localização */
 
     .conteudo__localização {
-        height: 6.5%;
+        height: 30rem;
     }
 
     /* Conteudo rodapé */
 
-    .conteudo__rodape {
-        height: 15%;
+    .rodape {
+        height: 30rem;
+    }
+
+    .rodape__logo {
+        height: 18rem;
+        width: 100%;
+    }
+
+    .logo {
+        padding-bottom: 20px;
     }
 
     .rodape__redes {
         display: flex;
     }
 
-    .rodape__power {
+    .rodape__info-profissional {
+        width: 100%;
+        height: 5rem;
         display: flex;
+        margin: 0 1rem;
+        font-size: 0.9rem;
     }
 
-    .rodape__power-span {
-        display: block;
-        margin-top: 30px;
+    .rodape__info-pro-ancora {
+        margin-right: 1rem;
     }
 
-    .logo__rodape {
-        font-size: 15px;
+    .rodape__info-pro-paragrafo {
+        margin-left: 1.5rem;
     }
 
-    .power {
-        margin-top: 30px;
+    .rodape__info-pro-ancora, .rodape__info-pro-paragrafo {
+        color: var(--titulo-principal-color);
+    }
+
+    .info__email {
+        line-height: 0.3;
+    }
+
+    .rodape__info-dfg {
+        height: 7rem;
+        border-top: 1px solid var(--titulo-principal-color);
+        line-height: 0.8;
+        background: var(--cinza);
+    }
+
+    .rodape__info-paragrafo {
+        padding-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .rodape__info-ancora {
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+
+    .rodape__info-ancora, .rodape__info-paragrafo {
+        margin-left: 1rem;
+        color: var(--titulo-principal-color);
     }
 }
 
