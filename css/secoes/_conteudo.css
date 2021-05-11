@@ -16,7 +16,7 @@
 .conteudo__sobre {
     text-align: center;
     padding: 20px 0px;
-    margin-bottom: 100px;
+    margin-bottom: 7rem;
 }
 
 .sobre__container {
@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.titulo__atendimento {
+    margin-top: 4rem;
+}
+
 .conteudo__atendimento-container {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)100%), url('../../img/img_atendimento_02.jpg')no-repeat center/cover;
     height: 100%;
@@ -46,7 +50,7 @@
 
 .atendimento__cards {
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 3rem;
 }
 
 /* Conteúdo consultório */
@@ -54,6 +58,14 @@
 .conteudo__consultorio {
     margin-top: 20px;
     text-align: center;
+}
+
+.sobre__consultorio {
+    height: 10rem;
+}
+
+.consultorio__apresentacao {
+    margin-bottom: 2rem;
 }
 
 /* Conteúdo Lead */

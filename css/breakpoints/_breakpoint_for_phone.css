@@ -3,10 +3,10 @@
 /* botões */
 
 .btn__whatsapp
-{ right: 20px; bottom: 20px; }
+{ right: 5px; bottom: 20px; }
 
 .retorno_ao_topo 
-{ right: 30px; bottom: 150px; }
+{ right: 10px; bottom: 150px; }
 
 /* Wrapper */
 
@@ -32,7 +32,7 @@
         font-size: 30px;
     }
 
-    .responsive-menu{display: block; top: 31%; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
+    .responsive-menu{display: block; top: 13rem; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
     .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
     .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
     .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
@@ -55,12 +55,12 @@
         flex-direction: column;
         justify-content: center;
         font-size: 25px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .ancora-link {
         color: var(--titulo-principal-color);
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .menu-display-none {
@@ -113,6 +113,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 26rem;
     }
 
     .consultorio__video {
@@ -127,8 +128,12 @@
 
     /* Conteúdo localização */
 
-    .conteudo__localização {
-        height: 30rem;
+    .conteudo__localizacao {
+        height: 71.5rem;
+    }
+
+    .localizacao__mapa {
+        margin-top: 20rem;
     }
 
     /* Conteudo rodapé */
@@ -154,16 +159,7 @@
         width: 100%;
         height: 5rem;
         display: flex;
-        margin: 0 1rem;
         font-size: 0.9rem;
-    }
-
-    .rodape__info-pro-ancora {
-        margin-right: 1rem;
-    }
-
-    .rodape__info-pro-paragrafo {
-        margin-left: 1.5rem;
     }
 
     .rodape__info-pro-ancora, .rodape__info-pro-paragrafo {

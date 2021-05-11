@@ -27,15 +27,16 @@
 }
 
 .rodape__info-pro-ancora {
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
 .rodape__info-pro-paragrafo {
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 .rodape__info-pro-ancora, .rodape__info-pro-paragrafo {
     color: var(--titulo-principal-color);
+    font-size: 0.8rem;
 }
 
 .info__email {

@@ -16,3 +16,11 @@
     color: var(--navegacao-lista-color-hover);
     font-size: 30px;
 }
+
+.ancora_redes {
+    text-decoration: none;
+}
+
+.ancora_redes:hover {
+    text-decoration: none;
+}
