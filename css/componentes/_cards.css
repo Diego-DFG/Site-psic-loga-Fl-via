@@ -1,16 +1,22 @@
 .atendimento__cards {
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
 }
 
 .atendimento__card-default {
     background: var(--branco);
-    margin-left: 15px;
-    height: 500px;
-    width: 280px;
+    height: 700px;
+    width: 320px;
+    margin-left: 1rem;
 }
 
 .atendimento__card_img {
     height: 70%;
     width: 100%;
+}
+
+.paragrafo__cards {
+    text-align: center;
+    width: 95%;
 }

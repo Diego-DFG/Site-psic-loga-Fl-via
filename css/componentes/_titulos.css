@@ -16,3 +16,8 @@
     border: none;
     margin-bottom: 2rem;
 }
+
+.titulo__cards {
+    text-align: center;
+    margin: 2rem 0;
+}

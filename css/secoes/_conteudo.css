@@ -14,7 +14,6 @@
 /* Conteudo Menu */
 
 .conteudo__sobre {
-    text-align: center;
     padding: 20px 0px;
     margin-bottom: 7rem;
 }
@@ -24,7 +23,7 @@
 }
 
 .sobre__descricao {
-    height: 15rem;
+    height: 25rem;
     width: 100%;
     display: block;
 }
@@ -32,6 +31,7 @@
 /* Conteúdo atendimento */
 
 .conteudo__atendimento {
+    height: 55rem;
     width: 100%;
 }
 
@@ -46,11 +46,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.atendimento__cards {
-    display: flex;
-    margin-bottom: 3rem;
 }
 
 /* Conteúdo consultório */
@@ -90,6 +85,10 @@
     height: 500px;
     width: 310px;
     margin-right: 10px;
+}
+
+.sobre__localizacao {
+    height: 15rem;
 }
 
 .consultorio__img {

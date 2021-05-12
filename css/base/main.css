@@ -1,7 +1,7 @@
 @import url('../secoes/_navegacao.css');
 @import url('../secoes/_conteudo.css');
 @import url('../secoes/_rodape.css');
-@import url('../componentes/_breakpoints.css');
+@import url('../breakpoints/base-breakpoints.css');
 
 /* Estilos gerais */
 * {

@@ -69,7 +69,7 @@
 
     /* Conteudo sobre */
     .conteudo__sobre {
-        height: 50rem;
+        height: 95rem;
     }
 
     .conteudo__destaque {
@@ -86,7 +86,7 @@
 
     /* Conteudo atendimento */
     .conteudo__atendimento {
-        height: 140rem;
+        height: 190rem;
     }
 
     .conteudo__atendimento-container {
@@ -106,7 +106,7 @@
     /* Conteudo consultorio */
 
     .conteudo__consultorio {
-        height: 145rem;
+        height: 143rem;
     }
 
     .consultorio__apresentacao {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flávia - Psicologia infantil</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/base/reset.css">
+    <link rel="stylesheet" href="./css/bibliotecas/reset.css">
     <link rel="stylesheet" href="./css/base/main.css">
     <link rel="stylesheet" href="./css/breakpoints/base-breakpoints.css">
 
@@ -58,7 +58,6 @@
                                 </a>
                             </div>
                             <div>
-                                <a class="lista__ancora ancora__active" href="">HOME</a>
                                 <a class="lista__ancora" href="#sobre">SOBRE MIM</a>
                                 <a class="lista__ancora" href="#atendimento">ATENDIMENTO</a>
                                 <a class="lista__ancora" href="#consultorio">CONSULTÓRIO</a>
@@ -94,7 +93,6 @@
                             </a>
                         </div>
                         <div class="responsive-menu__ancora">
-                            <a class="ancora-link" href="">HOME</a>
                             <a class="ancora-link" href="#sobre">SOBRE MIM</a>
                             <a class="ancora-link" href="#atendimento">ATENDIMENTO</a>
                             <a class="ancora-link" href="#consultorio">CONSULTÓRIO</a>
@@ -121,9 +119,13 @@
                     </p>
                     <p class="descricao__paragrafo">
                         
-                        Me chamo Flávia Quitete e sou formada em ....pela.... e especialista(mestra,doutora)...
-                        Sou apaixonada pela psicologia porque...
-                        Auxiliquei ... crianças a superar....
+                        Me chamo Flávia Quitete e sou formada há 19 anos em psicologia,
+                        pós graduada em terapia cognitiva comportamental, onde tive a 
+                        oportunidade de trabalhar com empresas de pequeno, médio e grande
+                        porte. Atuo a mais de 12 anos na área clínica atendendo a crianças,
+                        adolescentes e mulheres com diversos transtornos (depressão, TOD, TDAH,
+                        TAG, espectro autista (TEA), personalidade, pânico, dificuldades de 
+                        aprendizado). Atuo também em escolas dando orientações a pais e professores.
                     </p>
                     <p class="descricao__paragrafo">
                         Espero vê-lo(a) em breve!
@@ -145,30 +147,34 @@
                     <div class="atendimento__cards">
                         <div data-aos="fade-right" data-aos-delay="400" class="atendimento__card-default">
                             <img class="atendimento__card_img" src="./img/flavia_06_re.jpg" alt="">
-                            <p class="paragrafo__atendimento">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
-                            </p>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="500" class="atendimento__card-default">
-                            <img class="atendimento__card_img" src="./img/flavia_02_re.jpg" alt="">
-                            <p class="paragrafo__atendimento">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            <h6 class="titulo__cards">DIFICULDADES DE APRENDIZAGEM</h6>
+                            <p class="paragrafo__cards">
+                                Utilizamos de técnicas para o desenvolvimento cognitivo, intelectual,
+                                afetivo, social e o aprimoramento do potencial da criança.
                             </p>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="500" class="atendimento__card-default">
                             <img class="atendimento__card_img" src="./img/flavia_08_re.jpg" alt="">
-                            <p class="paragrafo__atendimento">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            <h6 class="titulo__cards">ESPAÇO LÚDICO E AGREGADOR</h6>
+                            <p class="paragrafo__cards">
+                                Nosso espaço foi pensado em detalhes para garantir a melhora
+                                da autoestima infantil e oportunizar as melhores condições para a aprendizagem.
+                            </p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="500" class="atendimento__card-default">
+                            <img class="atendimento__card_img" src="./img/flavia_02_re.jpg" alt="">
+                            <h6 class="titulo__cards">TEA (Transtorno do Espectro Autista)</h6>
+                            <p class="paragrafo__cards">
+                                Pais, fiquem atentos aos seguintes sinais: aquisição tardia da linguagem,
+                                trocas fonológicas, agitação psicomotora, leitura silabada e incongruente.
                             </p>
                         </div>
                         <div data-aos="fade-left" data-aos-delay="400" class="atendimento__card-default">
                             <img class="atendimento__card_img" src="./img/flavia_04_re.jpg" alt="">
-                            <p class="paragrafo__atendimento">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Vestibulum sit amet turpis pretium, malesuada arcu in, fermentum nisl.
+                            <h6 class="titulo__cards">Terapia com ABA (Análise do comportamento Aplicada)</h6>
+                            <p class="paragrafo__cards">
+                                Utilizamos a técnica ABA para o desenvolvimento de comportamentos adequados e 
+                                redução daqueles considerados prejudiciais.
                             </p>
                         </div>
                     </div>
@@ -190,10 +196,14 @@
                 </div>
                 <div class="consultorio__apresentacao">
                     <div class="consultorio__video img-thumbnail">
-                        <iframe src="./img/video_01.mp4" height="500" frameborder="0"></iframe>
+                        <video height="500" controls>
+                            <source src="./img/video_01.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="consultorio__video img-thumbnail">
-                        <iframe src="./img/video_02.mp4" height="500" frameborder="0"></iframe>
+                        <video height="500" controls>
+                            <source src="./img/video_02.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <div class="consultorio__video img-thumbnail">
                         <img class="consultorio__img" src="./img/flavia_03_re.jpg" height="500"/>
@@ -228,7 +238,10 @@
                     <p class="descricao__paragrafo">
                         Marque uma consulta ou tire suas dúvidas.
                     </p>
-                    <button role="button" class="btn-lead">FALE COMIGO</button>
+                    <a class="btn__lead-ancora btn-lead" href="https://api.whatsapp.com/send?1=pt_BR&phone=5521970175773/&text=Olá!%20Gostaria%20de%20mais%20informações">
+                        FALE CONOSCO
+                    </a>
+                    
                 </div>
             </section>
 
@@ -238,7 +251,7 @@
                 <div class="titulo__container">
                     <h2 class="titulo__default">Localização</h2>
                 </div>
-                <div class="sobre__descricao">
+                <div class="sobre__descricao sobre__localizacao">
                     <p class="descricao__paragrafo paragrafo__localizacao">
                         Nosso espaço foi projetado para recebê-lo(a) com o máximo de conforto e segurança. 
                         Está localizado no shopping Barra World que conta com estacionamento e diversos outros serviços.
