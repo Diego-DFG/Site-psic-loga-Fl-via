@@ -4,7 +4,7 @@
     margin: 30px auto;
     font-size: var(--conteudo-titulo-size);
     color: var(--titulo-principal-color);
-    border-bottom: 1px solid var(--titulo-principal-color);
+    border-bottom: 1px solid var(--vermelho);
     height: 100%;
     width: 20%;
     text-align: center;

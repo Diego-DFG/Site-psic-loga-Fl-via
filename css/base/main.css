@@ -23,13 +23,16 @@
     --redes-sociais-size: 25px;
 
     /*Cores*/
-    --titulo-principal-color: #5f939a;
+    --titulo-principal-color: #21094e;
     --navegacao-lista-color-hover: #999;
     --redes-sociais-color: #fff;
     --rodape-background-color: rgba(0,0,0,0.09);
     --cinza: rgba(0,0,0,0.07);
 
-    --branco: #eee;
+    --branco: #fff;
+    --vermelho: red;
+    --amarelo: yellow;
+    --verde: green;
 
     /* Configurações gerais */
     --conteudo-margin-top: 15px;

@@ -38,7 +38,7 @@
 .btn__whatsapp
 { position: fixed; bottom: 150px; right: 40px; z-index: 9999;
     width: 72px; height: 72px; text-align: center; 
-    line-height: 40px; background: var(--titulo-principal-color); color: #ffffff;
+    line-height: 40px; background: var(--verde); color: #ffffff;
     cursor: pointer; border: 0; border-radius: 50%;
     box-shadow: 2px 2px 5px #999;
     text-decoration: none; transition: opacity 0.2s ease-out;
@@ -50,7 +50,7 @@
 }
 
 .retorno_ao_topo 
-{ position: fixed; color: white; height: 50px; background: var(--titulo-principal-color);
+{ position: fixed; color: white; height: 50px; background: var(--vermelho);
 	width: 50px; text-align: center; font-size: 30px; border-radius: 3px; top: 20rem;
 	right: 50px; z-index: 9999; 
 }
