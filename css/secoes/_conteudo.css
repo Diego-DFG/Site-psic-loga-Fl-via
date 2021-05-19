@@ -5,27 +5,58 @@
 @import url('../componentes/_titulos.css');
 @import url('../componentes/_cards.css');
 
+.conteudo__principal {
+    
+}
+
 /* Conteudo destaque */
 
 .conteudo__destaque {
+    height: 35rem;
+}
+
+.destaque__container {
     text-align: center;
+    height: 30rem;
+    background: url(../../img/background__06.jpeg);
 }
 
 /* Conteudo Menu */
 
-.conteudo__sobre {
-    padding: 20px 0px;
-    margin-bottom: 7rem;
+.destaque__img {
+   margin-top: 4.6rem;
 }
 
-.sobre__container {
-    margin: 20px;
+.wave__img {
+    position: relative;
+    bottom: 8.6rem;
+}
+
+.conteudo__sobre {
+    height: 45rem;
+    margin-bottom: 7rem;
+    background: url(../../img/Abract01.png)no-repeat right;
 }
 
 .sobre__descricao {
-    height: 25rem;
-    width: 100%;
+    margin: 0 auto;
+    height: 98%;
+    width: 60%;
     display: block;
+    box-shadow: 5px 5px 5px var(--cinza);
+}
+
+.sobre__sticker-01 {
+    position: relative;
+    border-radius: 2rem;
+    left: 12rem;
+}
+
+.sobre__sticker-02 {
+    position: relative;
+    border-radius: 2rem;
+    bottom: 15rem;
+    left: 50rem;
 }
 
 /* Conteúdo atendimento */
@@ -37,6 +68,7 @@
 
 .titulo__atendimento {
     margin-top: 4rem;
+    font-family: var(--titulo-default);
 }
 
 .conteudo__atendimento-container {
@@ -51,22 +83,54 @@
 /* Conteúdo consultório */
 
 .conteudo__consultorio {
-    margin-top: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../img/Abract02.png)no-repeat left;
+}
+
+.titulo__consultorio {
+    height: 1rem;
 }
 
 .sobre__consultorio {
-    height: 10rem;
+    height: 15rem;
+    margin-bottom: 2rem;
 }
 
 .consultorio__apresentacao {
     margin-bottom: 2rem;
+    height: 35rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    width: 90%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
+
+.consultorio__video-container {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultorio__video {
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.video__container, .consultorio__img {
+    height: 100%;
+    width: 100%;
+}
+
 
 /* Conteúdo Lead */
 
 .conteudo__lead {
-    background: var(--titulo-principal-color);
+    background: linear-gradient(0.25turn, var(--lilaz), var(--azul));
     margin: 0px auto;
     text-align: center;
     color: var(--branco);

@@ -25,7 +25,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -104,11 +105,13 @@
         </header>
 
         <!-- Conteúdo -->
-        
+         <div class="conteudo__destaque">
+                <div class="destaque__container">
+                    <img class="destaque__img" src="./img/flavia_00_rb.png" alt="">
+                </div>
+                <img class="sticker sobre__sticker-01" src="./img/sticker_14.png" alt="">
+        </div>
         <main class="conteudo__principal">
-            <div class="conteudo__destaque">
-                <img class="destaque__img" src="./img/flavia_10_1.jpg" alt="">
-            </div>
             <section id="sobre" class="conteudo__sobre">
                 <div class="titulo__container">
                     <h2 class="titulo__default">Sobre mim</h2>
@@ -138,12 +141,13 @@
                         Flávia
                     </p>
                 </div>
+                <img class="sticker sobre__sticker-02" src="./img/sticker_10.png" alt="">
             </section>
 
             <!-- Atendimento -->
             <section id="atendimento" class="conteudo__atendimento">
                 <div class="conteudo__atendimento-container">
-                    <h2 class="titulo__atendimento">Terapia</h2>
+                    <h2 class="titulo__atendimento">Tratamento</h2>
                     <div class="atendimento__cards">
                         <div data-aos="fade-right" data-aos-delay="400" class="atendimento__card-default">
                             <img class="atendimento__card_img" src="./img/flavia_06_re.jpg" alt="">
@@ -184,8 +188,10 @@
             <!-- Consultório -->
             <section id="consultorio" class="conteudo__consultorio">
                 <div class="titulo__container">
-                    <h2 class="titulo__default">Consultório</h2>
+                    <h2 class="titulo__default titulo__consultorio">Consultório</h2>
                 </div>
+                <div class="abstract__circle circle__up"></div>
+                <div class="abstract__circle-tiny circle__up-tiny"></div>
                 <div class="sobre__descricao sobre__consultorio">
                     <p data-aos="fade-in" data-aos-delay="400" class="descricao__paragrafo paragrafo__localizacao">
                         Conheça as nossas instalações. Nosso consultório foi pensado para
@@ -194,19 +200,23 @@
                         de todos.
                     </p>
                 </div>
+                <div class="abstract__circle circle__down"></div>
+                <div class="abstract__circle-tiny circle__down-tiny"></div>
                 <div class="consultorio__apresentacao">
-                    <div class="consultorio__video img-thumbnail">
-                        <video height="500" controls>
-                            <source src="./img/video_01.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="consultorio__video img-thumbnail">
-                        <video height="500" controls>
-                            <source src="./img/video_02.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="consultorio__video img-thumbnail">
-                        <img class="consultorio__img" src="./img/flavia_03_re.jpg" height="500"/>
+                    <div class="consultorio__video-container">
+                        <div class="consultorio__video ">
+                            <video class="video__container"  controls>
+                                <source src="./img/video_01.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="consultorio__video ">
+                            <video class="video__container"  controls>
+                                <source src="./img/video_02.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="consultorio__video ">
+                            <img class="consultorio__img" src="./img/flavia_03_re.jpg" />
+                        </div>
                     </div>
                 </div>
                 <!-- 

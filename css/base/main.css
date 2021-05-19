@@ -3,6 +3,9 @@
 @import url('../secoes/_rodape.css');
 @import url('../breakpoints/base-breakpoints.css');
 
+@import url(../componentes/_sticker.css);
+@import url(../componentes/_visuais.css);
+
 /* Estilos gerais */
 * {
     padding: 0px;
@@ -15,20 +18,24 @@
 :root {
     /*Fontes */
     --titulo-principal: 'Cinzel', serif;
+    --titulo-default: 'Pattaya', sans-serif;
     --navegacao-lista-fonte: 'Oxygen', sans-serif;
     --conteudo--sobre-fonte: 'Quicksand', sans-serif;
 
     --titulo-principal-size: 20px;
-    --conteudo-titulo-size: 25px;
+    --conteudo-titulo-size: 2.5rem;
     --redes-sociais-size: 25px;
 
     /*Cores*/
-    --titulo-principal-color: #21094e;
+    --titulo-principal-color: #511281;
     --navegacao-lista-color-hover: #999;
     --redes-sociais-color: #fff;
     --rodape-background-color: rgba(0,0,0,0.09);
     --cinza: rgba(0,0,0,0.07);
 
+    --preto: #333;
+    --lilaz: #aa2ee6;
+    --azul: #00adb5;
     --branco: #fff;
     --vermelho: red;
     --amarelo: yellow;

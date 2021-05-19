@@ -42,7 +42,8 @@
 
 .navegacao__conteudo {
     display: flex;
-    background: var(--titulo-principal-color);
+    border-top: 1px solid #fabe50;
+    padding: 1rem 0;
 }
 
 
@@ -50,10 +51,10 @@
 .navegacao__conteudo-container {
     display: flex;
     justify-content: center;
+    font-weight: bold;
     width: 100%;
     height: 30px;
     margin: 0 auto;
-    border-top: 1px solid var(--titulo-principal-color);
 }
 
 .conteudo__lista {
@@ -61,7 +62,7 @@
     width: 100%;
     margin-right: 40px;
     justify-content: center;
-    font-family: var(--navegacao-lista-fonte);
+    font-family: var(--conteudo--sobre-fonte);
 }
 
 .conteudo__redes-sociais {
@@ -69,14 +70,14 @@
 }
 
 .lista__ancora {
-    margin-left: 20px;
-    color: var(--branco);
+    margin-left: 3rem;
+    color: var(--preto);
     font-size: 15px;
 }
 
 .lista__ancora:hover {
     text-decoration: none;
-    color: var(--branco);
+    color: var(--preto);
     cursor: pointer;
 }
 
@@ -100,7 +101,5 @@
     display: none;
 }
 
-.destaque__img {
-    width: 80%;
-}
+
 
