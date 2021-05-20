@@ -12,27 +12,26 @@
 .btn-lead {
     padding: 15px 10px;
     border-radius: 30px;
-    border: none;
-    color: var(--titulo-principal-color);
+    border: 1px solid var(--branco);
     font-weight: bold;
     cursor: pointer;
     margin: 0 auto;
-    background: var(--amarelo);
 }
 
 .btn__lead-ancora {
     text-decoration: none;
-    color: var(--titulo-principal-color);
+    color: var(--branco);
 }
 
 .btn__lead-ancora:hover {
     text-decoration: none;
+    background: var(--branco);
 }
 
 .btn__whatsapp
 { position: fixed; bottom: 150px; right: 40px; z-index: 9999;
     width: 72px; height: 72px; text-align: center; 
-    line-height: 40px; background: var(--verde); color: #ffffff;
+    line-height: 40px; background: linear-gradient(var(--lilaz), var(--azul)); color: #ffffff;
     cursor: pointer; border: 0; border-radius: 50%;
     box-shadow: 2px 2px 5px #999;
     text-decoration: none; transition: opacity 0.2s ease-out;
@@ -44,7 +43,7 @@
 }
 
 .retorno_ao_topo 
-{ position: fixed; color: white; height: 50px; background: var(--vermelho);
+{ position: fixed; color: white; height: 50px; background: var(--azul);
 	width: 50px; text-align: center; font-size: 30px; border-radius: 3px; top: 20rem;
 	right: 50px; z-index: 9999; 
 }

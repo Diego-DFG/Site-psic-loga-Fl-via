@@ -27,6 +27,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -41,7 +43,7 @@
                     <div class="logo__container">
                         <h1 class="logo logo__h1">FLÁVIA QUITETE</h1>
                         <div class="logo__icone"></div>
-                        <h3 class="logo logo__h3">Psicologia Infantil</h3>
+                        <h3 class="logo logo__h3">Psicologia infanto-juvenil</h3>
                     </div>
                 </nav>
                 <div class="navegacao__conteudo">
@@ -107,7 +109,7 @@
         <!-- Conteúdo -->
          <div class="conteudo__destaque">
                 <div class="destaque__container">
-                    <img class="destaque__img" src="./img/flavia_00_rb.png" alt="">
+                    <img class="destaque__img" src="./img/flavia_00.jpeg" alt="">
                 </div>
                 <img class="sticker sobre__sticker-01" src="./img/sticker_14.png" alt="">
         </div>
@@ -122,8 +124,8 @@
                     </p>
                     <p class="descricao__paragrafo">
                         
-                        Me chamo Flávia Quitete e sou formada há 19 anos em psicologia,
-                        pós graduada em terapia cognitiva comportamental, onde tive a 
+                        Me chamo Flávia Quitete e sou especialista em terapia cognitiva comportamental infanto-juvenil, 
+                        onde tive a 
                         oportunidade de trabalhar com empresas de pequeno, médio e grande
                         porte. Atuo a mais de 12 anos na área clínica atendendo a crianças,
                         adolescentes e mulheres com diversos transtornos (depressão, TOD, TDAH,
@@ -187,11 +189,9 @@
 
             <!-- Consultório -->
             <section id="consultorio" class="conteudo__consultorio">
-                <div class="titulo__container">
-                    <h2 class="titulo__default titulo__consultorio">Consultório</h2>
-                </div>
                 <div class="abstract__circle circle__up"></div>
                 <div class="abstract__circle-tiny circle__up-tiny"></div>
+                <h2 class="titulo__default">Consultório</h2>
                 <div class="sobre__descricao sobre__consultorio">
                     <p data-aos="fade-in" data-aos-delay="400" class="descricao__paragrafo paragrafo__localizacao">
                         Conheça as nossas instalações. Nosso consultório foi pensado para
@@ -200,18 +200,16 @@
                         de todos.
                     </p>
                 </div>
-                <div class="abstract__circle circle__down"></div>
-                <div class="abstract__circle-tiny circle__down-tiny"></div>
                 <div class="consultorio__apresentacao">
                     <div class="consultorio__video-container">
                         <div class="consultorio__video ">
                             <video class="video__container"  controls>
-                                <source src="./img/video_01.mp4" type="video/mp4">
+                                <source class="video__src"  src="./img/video_01.mp4" type="video/mp4">
                             </video>
                         </div>
                         <div class="consultorio__video ">
                             <video class="video__container"  controls>
-                                <source src="./img/video_02.mp4" type="video/mp4">
+                                <source class="video__src" src="./img/video_02.mp4" type="video/mp4">
                             </video>
                         </div>
                         <div class="consultorio__video ">
@@ -219,27 +217,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- 
-                <div class="carousel">
-                    <div class="owl-carousel owl-theme">
-                        <div id="img_02" class="carousel__container-img img-thumbnail">
-                            
-                        </div>
-                        <div id="img_03" class="carousel__container-img img-thumbnail">
-                            
-                        </div>
-                        <div id="img_04" class="carousel__container-img img-thumbnail">
-                            <img class="carousel__img" src="img/img_04.jpeg" alt="">
-                        </div>
-                        <div id="img_05" class="carousel__container-img img-thumbnail">
-                            <img class="carousel__img" src="img/img_05.jpeg" alt="">
-                        </div>
-                        <div id="img_06" class="carousel__container-img img-thumbnail">
-                            <img class="carousel__img" src="img/img_06.jpeg" alt="">
-                        </div>
-                    </div>
-                </div>
-                -->
             </section>
 
             <!-- Conteúdo lead -->
@@ -287,7 +264,7 @@
             <div class="rodape__logo">
                 <h1 class="logo logo__h1 logo__rodape">FLÁVIA QUITETE</h1>
                 <div class="logo__icone"></div>
-                <h3 class="logo logo__rodape">Psicologia Infantil</h3>
+                <h3 class="logo logo__h3 logo__rodape">Psicologia infanto-juvenil</h3>
                 <div class="rodape__redes">
                     <a class="ancora_redes" href="https://www.facebook.com/flavia.quitete">
                         <i class="facebook rodape_redes fab fa-facebook-f"></i>
@@ -309,7 +286,7 @@
             </div>
             <div class="rodape__info-dfg">
                 <p class="rodape__info-paragrafo">Powered by: DFG Solutions - 2021</p>
-                <p class="rodape__info-ancora" href="http://dfgsolutions.com.br/">www.dfgsolutions.com.br</p>
+                <a class="rodape__info-ancora" href="http://dfgsolutions.com.br/">www.dfgsolutions.com.br</a>
             </div>
         </footer>
     </div>

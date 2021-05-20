@@ -31,18 +31,20 @@
 
 .logo__h1 {
     border-bottom: 1px solid var(--titulo-principal-color);
+    font-weight: bold;
     font-size: var(--titulo-principal-size);
 }
 
 .logo__h3 {
-    font-size: var(--titulo-principal-size);;
+    font-weight: bold;
+    font-size: var(--titulo-principal-size-h3);;
 }
 
 /* Navegação conteúdo */
 
 .navegacao__conteudo {
     display: flex;
-    border-top: 1px solid #fabe50;
+    border-top: 1px solid var(--amarelo-dark);
     padding: 1rem 0;
 }
 

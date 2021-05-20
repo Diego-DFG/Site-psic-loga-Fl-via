@@ -17,17 +17,18 @@
 /* Variáveis */
 :root {
     /*Fontes */
-    --titulo-principal: 'Cinzel', serif;
+    --titulo-principal: 'Roboto', sans-serif;
     --titulo-default: 'Pattaya', sans-serif;
     --navegacao-lista-fonte: 'Oxygen', sans-serif;
     --conteudo--sobre-fonte: 'Quicksand', sans-serif;
 
-    --titulo-principal-size: 20px;
+    --titulo-principal-size: 2rem;
+    --titulo-principal-size-h3: 1.5rem;
     --conteudo-titulo-size: 2.5rem;
     --redes-sociais-size: 25px;
 
     /*Cores*/
-    --titulo-principal-color: #511281;
+    --titulo-principal-color: #e93b81;
     --navegacao-lista-color-hover: #999;
     --redes-sociais-color: #fff;
     --rodape-background-color: rgba(0,0,0,0.09);
@@ -38,6 +39,7 @@
     --azul: #00adb5;
     --branco: #fff;
     --vermelho: red;
+    --amarelo-dark: #fabe50;
     --amarelo: yellow;
     --verde: green;
 

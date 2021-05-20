@@ -1,10 +1,9 @@
 .rodape {
-    border-top: 3px solid var(--titulo-principal-color);
+    border-top: 3px solid var(--amarelo-dark);
     background: var(--branco);
     padding: 20px 0px;
     height: 20rem;
     color: var(--branco);
-    background: var(--titulo-principal-color);
 }
 
 .rodape__logo {
@@ -37,12 +36,14 @@
 }
 
 .rodape__info-pro-ancora, .rodape__info-pro-paragrafo {
-    color: var(--branco);
+    color: var(--preto);
     font-size: 0.8rem;
+    font-family: var(--conteudo--sobre-fonte);
 }
 
 .info__email {
     line-height: 0.3;
+    display: flex;
 }
 
 .rodape__info-dfg {
@@ -62,7 +63,11 @@
     text-decoration: none;
 }
 
+.rodape__info-ancora:hover {
+    color: var(--preto);
+}
+
 .rodape__info-ancora, .rodape__info-paragrafo {
     margin-left: 1rem;
-    color: var(--branco);
+    color: var(--preto);
 }
