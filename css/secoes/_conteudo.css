@@ -5,9 +5,6 @@
 @import url('../componentes/_titulos.css');
 @import url('../componentes/_cards.css');
 
-.conteudo__principal {
-    
-}
 
 /* Conteudo destaque */
 
@@ -18,23 +15,18 @@
 .destaque__container {
     text-align: center;
     height: 30rem;
-    background: url(../../img/background__03.jpeg)no-repeat bottom/cover;
+    background: linear-gradient(0.25turn, var(--lilaz), var(--azul));
 }
 
 /* Conteudo Menu */
 
 .destaque__img {
-    border-radius: 1rem;
+    border-radius: 50%;
     border: 5px solid var(--branco);
     background: var(--branco);
-    margin-top: 4.6rem;
+    margin-top: 4rem;
     height: 22rem;
-    width: 30rem;
-}
-
-.wave__img {
-    position: relative;
-    bottom: 8.6rem;
+    width: 22rem;
 }
 
 .conteudo__sobre {
@@ -67,7 +59,7 @@
 /* Conteúdo atendimento */
 
 .conteudo__atendimento {
-    height: 55rem;
+    height: 50rem;
     width: 100%;
 }
 
@@ -78,11 +70,61 @@
 
 .conteudo__atendimento-container {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)100%), url('../../img/img_atendimento_02.jpg')no-repeat center/cover;
-    height: 100%;
+    height: 99%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Terapia */
+
+.terapia {
+    height: 43rem;
+    border-bottom: 1px solid var(--amarelo-dark);
+}
+
+.terapia__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.terapia__img-container-00, 
+.terapia__img-container-01,
+.terapia__img-container-02 {
+    height: 15rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terapia__img-container-00 {
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.terapia__img-container-02 {
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+
+.terapia__container-last_child {
+    display: flex;
+    justify-content: center;
+}
+
+.terapia__img {
+    height: 10rem;
+}
+
+.terapia__descricao-00 {
+    width: 70%;
+}
+
+.terapia__descricao-01 {
+    width: 80%;
 }
 
 /* Conteúdo consultório */
@@ -155,8 +197,20 @@
     padding-bottom: 20px;
 }
 
+.lead__01 {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__first-child {
+    margin-top: 1rem;
+}
+
 .lead__descricao {
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 /* Conteúdo localização */

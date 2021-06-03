@@ -1,18 +1,18 @@
 .atendimento__cards {
     display: flex;
-    margin-bottom: 3rem;
-    margin-right: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 7rem;
 }
 
 .atendimento__card-default {
     background: var(--branco);
-    height: 700px;
+    height: 600px;
     width: 320px;
-    margin-left: 1rem;
 }
 
 .atendimento__card_img {
-    height: 70%;
+    height: 60%;
     width: 100%;
 }
 

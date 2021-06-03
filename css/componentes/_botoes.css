@@ -44,7 +44,7 @@
 
 .retorno_ao_topo 
 { position: fixed; color: white; height: 50px; background: var(--azul);
-	width: 50px; text-align: center; font-size: 30px; border-radius: 3px; top: 20rem;
+	width: 50px; text-align: center; font-size: 30px; border-radius: 3px; bottom: 10em;
 	right: 50px; z-index: 9999; 
 }
 

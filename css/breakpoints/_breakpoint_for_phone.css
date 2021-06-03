@@ -6,7 +6,7 @@
 { right: 5px; bottom: 20px; }
 
 .retorno_ao_topo 
-{ right: 10px; bottom: 150px; }
+{ right: 10px; top: 400px; }
 
 /* Wrapper */
 
@@ -15,7 +15,7 @@
     /* Navegacao */
 
     .navegacao__conteudo {
-        height: 50px;
+        height: 70px;
     }
 
     .conteudo__lista {
@@ -26,13 +26,19 @@
         font-size: 30px;
     }
 
+    .menu-bars-container {
+        display: flex;
+        align-items: center;
+    }
+
     .menu-bars, .menu-times {
         display: block;
         cursor: pointer;
         font-size: 30px;
+        color: var(--titulo-principal-color);
     }
 
-    .responsive-menu{display: block; top: 13rem; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
+    .responsive-menu{display: block; top: 15rem; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
     .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
     .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
     .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
@@ -67,13 +73,43 @@
         display: none;
     }
 
+    /* Destaque */
+
+    .destaque__img {
+        border-radius: 1rem;
+        border: 5px solid var(--branco);
+        background: var(--branco);
+        margin-top: 4.6rem;
+        height: 22rem;
+        width: 30rem;
+    }
+
     /* Conteudo sobre */
+
+    .sobre__sticker-01 {
+        position: relative;
+        left: 2rem;
+        height: 7rem;
+    }
+
+    .sobre__sticker-02 {
+        position: relative;
+        bottom: 250px;
+        left: 200px;
+        height: 6rem;
+    }
+
     .conteudo__sobre {
-        height: 95rem;
+        height: 80rem;
+        width: 100%;
     }
 
     .conteudo__destaque {
         width: 100%;
+    }
+
+    .sobre-descricao {
+        width: 90%;
     }
 
     .destaque__img {
@@ -82,6 +118,10 @@
 
     .titulo__default {
         width: 60%;
+    }
+
+    .descricao__paragrafo {
+        width: 100%;
     }
 
     /* Conteudo atendimento */
@@ -105,19 +145,39 @@
 
     /* Conteudo consultorio */
 
+    .titulo__consultorio {
+        height: 5rem;
+    }
+
+    .abstract__circle {
+        display: none;
+    }
+
+    .abstract__circle-tiny {
+        display: none;
+    }
+
     .conteudo__consultorio {
         height: 143rem;
     }
-
-    .consultorio__apresentacao {
+    .consultorio__video-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: 26rem;
+        margin-bottom: 3rem;
     }
 
-    .consultorio__video {
-        margin-top: 20px;
+    .consultorio__apresentacao {
+        height: 125rem;
+        margin-bottom: 5rem;
+    }
+
+    .sobre__consultorio {
+        height: 35rem;
+        margin-bottom: 5rem;
+    }
+
+    .paragrafo__localizacao {
+        height: 100%;
     }
 
     /* Conteudo lead */
@@ -129,11 +189,11 @@
     /* Conteúdo localização */
 
     .conteudo__localizacao {
-        height: 71.5rem;
+        height: 73rem;
     }
 
-    .localizacao__mapa {
-        margin-top: 20rem;
+    .sobre__localizacao {
+        height: 33rem;
     }
 
     /* Conteudo rodapé */
@@ -168,6 +228,8 @@
 
     .info__email {
         line-height: 0.3;
+        display: flex;
+        flex-direction: column;
     }
 
     .rodape__info-dfg {
@@ -193,3 +255,19 @@
     }
 }
 
+@media (min-width: 350px) and (max-width: 400px) {
+
+    .consultorio__video-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 349px) {
+    .conteudo__consultorio {
+        box-sizing: border-box;
+        height: 150rem;
+    }
+    .consultorio__video-container {
+        width: 100%;
+    }
+}
