@@ -126,7 +126,7 @@
 
     /* Conteudo atendimento */
     .conteudo__atendimento {
-        height: 190rem;
+        height: 130rem;
     }
 
     .conteudo__atendimento-container {
@@ -136,11 +136,61 @@
     .atendimento__cards {
         display: flex;
         margin-bottom: 20px;
+        margin-left: 1rem;
         flex-direction: column;
     }
 
     .atendimento__card-default {
         margin-top: 20px;
+    }
+
+    /* Terapia */
+
+    .terapia {
+        height: 110rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terapia__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terapia__titulo {
+        font-size: 1.5rem;
+    }
+
+    .terapia__img-container-00 {
+        margin-top: 10rem;
+    }
+
+    .terapia__img-container-02 {
+        margin-left: 0;
+    }
+
+    .terapia__img-container-00, 
+    .terapia__img-container-01, 
+    .terapia__img-container-02 {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .terapia__img-container-00, 
+    .terapia__img-container-01,
+    .terapia__img-container-02 {
+        margin-bottom: 15rem;
+    }
+
+    .terapia__descricao-container {
+        width: 90%;
+    }
+
+    .terapia__descricao-00, 
+    .terapia__descricao-01, 
+    .terapia__descricao-02 {
+        width: 100%;
     }
 
     /* Conteudo consultorio */
