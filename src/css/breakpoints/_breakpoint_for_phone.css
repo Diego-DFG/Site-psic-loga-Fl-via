@@ -79,9 +79,9 @@
         border-radius: 1rem;
         border: 5px solid var(--branco);
         background: var(--branco);
-        margin-top: 4.6rem;
-        height: 22rem;
-        width: 30rem;
+        margin-top: 5rem;
+        height: 20rem;
+        width: 25rem;
     }
 
     /* Conteudo sobre */
@@ -100,7 +100,7 @@
     }
 
     .conteudo__sobre {
-        height: 80rem;
+        height: 200rem;
         width: 100%;
     }
 

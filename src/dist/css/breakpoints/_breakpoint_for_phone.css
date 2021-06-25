@@ -1,0 +1,323 @@
+@media (max-width: 860px) {
+
+/* botões */
+
+.btn__whatsapp
+{ right: 5px; bottom: 20px; }
+
+.retorno_ao_topo 
+{ right: 10px; top: 400px; }
+
+/* Wrapper */
+
+    
+
+    /* Navegacao */
+
+    .navegacao__conteudo {
+        height: 70px;
+    }
+
+    .conteudo__lista {
+        display: none;
+    }
+
+    .checkbox {
+        font-size: 30px;
+    }
+
+    .menu-bars-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-bars, .menu-times {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: var(--titulo-principal-color);
+    }
+
+    .responsive-menu{display: block; top: 15rem; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
+    .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .responsive-menu ul li a { text-decoration:none;  margin: 0px; color: var(--titulo-principal-color)}
+    .responsive-menu ul li a:hover { text-decoration:none;}
+
+    .responsive-menu__redes-sociais {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .facebook, .instagram, .linkedin {
+        color: var(--titulo-principal-color);
+        font-size: 30px;
+    }
+
+    .responsive-menu__ancora {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .ancora-link {
+        color: var(--titulo-principal-color);
+        margin-top: 20px;
+    }
+
+    .menu-display-none {
+        display: none;
+    }
+
+    /* Destaque */
+
+    .destaque__img {
+        border-radius: 1rem;
+        border: 5px solid var(--branco);
+        background: var(--branco);
+        margin-top: 5rem;
+        height: 20rem;
+        width: 25rem;
+    }
+
+    /* Conteudo sobre */
+
+    .sobre__sticker-01 {
+        position: relative;
+        left: 2rem;
+        height: 7rem;
+    }
+
+    .sobre__sticker-02 {
+        position: relative;
+        bottom: 250px;
+        left: 200px;
+        height: 6rem;
+    }
+
+    .conteudo__sobre {
+        height: 200rem;
+        width: 100%;
+    }
+
+    .conteudo__destaque {
+        width: 100%;
+    }
+
+    .sobre-descricao {
+        width: 90%;
+    }
+
+    .destaque__img {
+        width: 100%;
+    }
+
+    .titulo__default {
+        width: 60%;
+    }
+
+    .descricao__paragrafo {
+        width: 100%;
+    }
+
+    /* Conteudo atendimento */
+    .conteudo__atendimento {
+        height: 130rem;
+    }
+
+    .conteudo__atendimento-container {
+        background-position: right;
+    }
+
+    .atendimento__cards {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 1rem;
+        flex-direction: column;
+    }
+
+    .atendimento__card-default {
+        margin-top: 20px;
+    }
+
+    /* Terapia */
+
+    .terapia {
+        height: 110rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terapia__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terapia__titulo {
+        font-size: 1.5rem;
+    }
+
+    .terapia__img-container-00 {
+        margin-top: 10rem;
+    }
+
+    .terapia__img-container-02 {
+        margin-left: 0;
+    }
+
+    .terapia__img-container-00, 
+    .terapia__img-container-01, 
+    .terapia__img-container-02 {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .terapia__img-container-00, 
+    .terapia__img-container-01,
+    .terapia__img-container-02 {
+        margin-bottom: 15rem;
+    }
+
+    .terapia__descricao-container {
+        width: 90%;
+    }
+
+    .terapia__descricao-00, 
+    .terapia__descricao-01, 
+    .terapia__descricao-02 {
+        width: 100%;
+    }
+
+    /* Conteudo consultorio */
+
+    .titulo__consultorio {
+        height: 5rem;
+    }
+
+    .abstract__circle {
+        display: none;
+    }
+
+    .abstract__circle-tiny {
+        display: none;
+    }
+
+    .conteudo__consultorio {
+        height: 143rem;
+    }
+    .consultorio__video-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .consultorio__apresentacao {
+        height: 125rem;
+        margin-bottom: 5rem;
+    }
+
+    .sobre__consultorio {
+        height: 35rem;
+        margin-bottom: 5rem;
+    }
+
+    .paragrafo__localizacao {
+        height: 100%;
+    }
+
+    /* Conteudo lead */
+
+    .conteudo__lead {
+        height: 15rem;
+    }
+
+    /* Conteúdo localização */
+
+    .conteudo__localizacao {
+        height: 73rem;
+    }
+
+    .sobre__localizacao {
+        height: 33rem;
+    }
+
+    /* Conteudo rodapé */
+
+    .rodape {
+        height: 30rem;
+    }
+
+    .rodape__logo {
+        height: 18rem;
+        width: 100%;
+    }
+
+    .logo {
+        padding-bottom: 20px;
+    }
+
+    .rodape__redes {
+        display: flex;
+    }
+
+    .rodape__info-profissional {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        font-size: 0.9rem;
+    }
+
+    .rodape__info-pro-ancora, .rodape__info-pro-paragrafo {
+        color: var(--titulo-principal-color);
+    }
+
+    .info__email {
+        line-height: 0.3;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape__info-dfg {
+        height: 7rem;
+        border-top: 1px solid var(--titulo-principal-color);
+        line-height: 0.8;
+        background: var(--cinza);
+    }
+
+    .rodape__info-paragrafo {
+        padding-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .rodape__info-ancora {
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+
+    .rodape__info-ancora, .rodape__info-paragrafo {
+        margin-left: 1rem;
+        color: var(--titulo-principal-color);
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+
+    .consultorio__video-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 349px) {
+    .conteudo__consultorio {
+        box-sizing: border-box;
+        height: 150rem;
+    }
+    .consultorio__video-container {
+        width: 100%;
+    }
+}

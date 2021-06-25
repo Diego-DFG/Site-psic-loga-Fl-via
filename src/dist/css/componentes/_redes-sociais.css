@@ -1,0 +1,26 @@
+.facebook, .instagram, .linkedin {
+    margin-right: 10px;
+    color: var(--preto);
+    cursor: pointer;
+}
+
+/* Botão fixo na tela */
+.whatsapp {
+    position: relative;
+    font-size: 50px;
+    top: 10px;
+}
+
+/* redes sociais rodape */
+.rodape_redes {
+    color: var(--navegacao-lista-color-hover);
+    font-size: 30px;
+}
+
+.ancora_redes {
+    text-decoration: none;
+}
+
+.ancora_redes:hover {
+    text-decoration: none;
+}

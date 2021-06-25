@@ -1,0 +1,67 @@
+@import url('../secoes/_navegacao.css');
+@import url('../secoes/_conteudo.css');
+@import url('../secoes/_rodape.css');
+@import url('../breakpoints/base-breakpoints.css');
+
+@import url(../componentes/_sticker.css);
+@import url(../componentes/_visuais.css);
+
+/* Estilos gerais */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variáveis */
+:root {
+    /*Fontes */
+    --titulo-principal: 'Roboto', sans-serif;
+    --titulo-default: 'Pattaya', sans-serif;
+    --navegacao-lista-fonte: 'Oxygen', sans-serif;
+    --conteudo--sobre-fonte: 'Quicksand', sans-serif;
+
+    --titulo-principal-size: 2rem;
+    --titulo-principal-size-h3: 1.5rem;
+    --conteudo-titulo-size: 2.5rem;
+    --redes-sociais-size: 25px;
+
+    /*Cores*/
+    --titulo-principal-color: #39a6a3;
+    --navegacao-lista-color-hover: #999;
+    --redes-sociais-color: #fff;
+    --rodape-background-color: rgba(0,0,0,0.09);
+    --cinza: rgba(0,0,0,0.07);
+
+    --preto: #333;
+    --lilaz: #aa2ee6;
+    --azul: #00adb5;
+    --branco: #fff;
+    --rosa: #e93b81;
+    --vermelho: red;
+    --amarelo-dark: #fabe50;
+    --amarelo: yellow;
+    --verde: green;
+
+    /* Configurações gerais */
+    --conteudo-margin-top: 15px;
+
+    /* Borda */
+    --redes-sociais-borderRadius: 10px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+

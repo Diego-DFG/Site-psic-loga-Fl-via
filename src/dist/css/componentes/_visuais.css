@@ -1,0 +1,37 @@
+.abstract__circle, .abstract__circle-tiny {
+    height:6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: linear-gradient(0.25turn, var(--azul), var(--lilaz));
+}
+
+.abstract__circle {
+    position: relative;
+    left: 17rem;
+    top: 4.5rem;
+    z-index: 99999;
+}
+
+.abstract__circle-tiny {
+    height: 3rem;
+    width: 3rem;
+    z-index: 9;
+}
+
+.circle__up-tiny {
+    position: relative;
+    left: 20rem;
+    bottom: 2rem;
+}
+
+.circle__down {
+    position: relative;
+    left: 66rem;
+    top: -3.5rem;
+}
+
+.circle__down-tiny {
+    position: relative;
+    left: 70rem;
+    bottom: 10rem;
+}

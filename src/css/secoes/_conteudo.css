@@ -21,16 +21,16 @@
 /* Conteudo Menu */
 
 .destaque__img {
-    border-radius: 50%;
+    border-radius: 1rem;
     border: 5px solid var(--branco);
     background: var(--branco);
-    margin-top: 4rem;
-    height: 22rem;
-    width: 22rem;
+    margin-top: 2.5rem;
+    height: 25rem;
+    width: 35rem;
 }
 
 .conteudo__sobre {
-    height: 45rem;
+    height: 95rem;
     margin-bottom: 7rem;
     background: url(../../img/Abract01.png)no-repeat right;
 }
