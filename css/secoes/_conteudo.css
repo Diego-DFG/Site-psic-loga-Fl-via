@@ -18,19 +18,19 @@
     background: linear-gradient(0.25turn, var(--lilaz), var(--azul));
 }
 
-/* Conteudo Menu */
-
 .destaque__img {
     border-radius: 1rem;
     border: 5px solid var(--branco);
     background: var(--branco);
-    margin-top: 2.5rem;
-    height: 25rem;
-    width: 35rem;
+    margin-top: 4rem;
+    height: 22rem;
+    width: 32rem;
 }
 
+/* Conteúdo sobre */
+
 .conteudo__sobre {
-    height: 95rem;
+    height: 100rem;
     margin-bottom: 7rem;
     background: url(../../img/Abract01.png)no-repeat right;
 }

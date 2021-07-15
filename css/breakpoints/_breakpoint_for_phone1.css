@@ -14,12 +14,13 @@
 
     /* Navegacao */
 
-    .navegacao__conteudo {
-        height: 70px;
+    .navegacao {
+        height: 18rem;
     }
 
-    .conteudo__lista {
+    .navegacao__conteudo {
         display: none;
+        height: 20rem;
     }
 
     .checkbox {
@@ -27,27 +28,68 @@
     }
 
     .menu-bars-container {
+        width: 5rem;
+        height: 3rem;
         display: flex;
+        margin: 0 auto;
+        padding: 1rem 0rem;
         align-items: center;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.09);
+    }
+
+    .conteudo__lista {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo__redes-sociais {
+        height: 30%;
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+
+    .conteudo__Lista-ancoras {
+        height: 70%;
+        bottom: 2.5rem;
+        line-height: 2.8;
+        position: relative;
+    }
+
+    .conteudo__lista-ancoras {
+        height: 15rem;
+    }
+
+    .conteudo__lista-ancoras {
+        display: flex;
+        flex-direction: column;
     }
 
     .menu-bars, .menu-times {
         display: block;
         cursor: pointer;
-        font-size: 30px;
+        font-size: 20px;
+        margin: 0 auto;
         color: var(--titulo-principal-color);
     }
 
-    .responsive-menu{display: block; top: 15rem; height: 130vh; font-weight:bold; font-size:0.8em; width:100%; background: #fff;  position:absolute; text-align:center; font-size:12px;}
-    .responsive-menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-    .responsive-menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-    .responsive-menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-    .responsive-menu ul li a { text-decoration:none;  margin: 0px; color: var(--titulo-principal-color)}
-    .responsive-menu ul li a:hover { text-decoration:none;}
+    .menu-times {
+        display: none;
+    }
 
-    .responsive-menu__redes-sociais {
-        text-align: center;
-        margin-top: 40px;
+    .showDisplay {
+        display: flex;
+    }
+
+    .hideDisplay {
+        display: none;
+    }
+
+    .heightViewport {
+        height: 100vh;
     }
 
     .facebook, .instagram, .linkedin {
@@ -100,7 +142,7 @@
     }
 
     .conteudo__sobre {
-        height: 200rem;
+        height: 160rem;
         width: 100%;
     }
 
@@ -135,6 +177,7 @@
 
     .atendimento__cards {
         display: flex;
+        align-items: center;
         margin-bottom: 20px;
         margin-left: 1rem;
         flex-direction: column;
@@ -306,6 +349,11 @@
 }
 
 @media (min-width: 350px) and (max-width: 400px) {
+
+    .conteudo__sobre {
+        height: 175rem;
+        width: 100%;
+    }
 
     .consultorio__video-container {
         width: 100%;
